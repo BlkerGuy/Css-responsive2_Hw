@@ -1,0 +1,701 @@
+@media only  screen and (max-width:992px) {
+    .container{
+        max-width: 992px;
+    }
+    
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 5px 18px 25px;
+    }
+    header nav .bars i {
+        font-size: 25px;
+    }
+
+    header nav .logo {
+        width: 122.98px;
+        height: 16px;
+    }
+    header nav .logo h1 {
+        width: 100%;
+        height: 100%;
+        font: 400 16px 'Dela Gothic One', cursive;
+        line-height: 100%;
+        text-align: right;
+    }
+
+    header nav .login {
+        display: flex;
+        align-items: center;
+        flex-grow: 0.1;
+        justify-content: space-between;
+    }
+
+    header nav .login .profile a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-grow: 0.2;
+        text-decoration: none;
+    }
+
+    header nav .login .text {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #c3dce3;
+        font: 700 16px 'Montserrat', sans-serif;
+        font-style: normal;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #2b788b;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+
+    header .login .profile span {
+        font-style: normal;
+        font: 600 16px 'Montserrat', sans-serif;
+        line-height: 140%;
+        letter-spacing: -0.04em;
+        color: #757575;
+    }
+
+    main section .main-upside {
+        background-color: #F6F5F4;
+        padding: 20px 20px;
+
+    }
+
+    main section article .main-upside h2 {
+        height: 12px;
+        font: 700 12px 'Montserrat', sans-serif;
+        font-style: normal;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #2B788B;
+        padding-bottom: 25px;
+    }
+
+    main section article .main-upside p {
+        font-style: normal;
+        font: 400 32px 'Dela Gothic One';
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #000000;
+        padding-bottom: 8px;
+
+    }
+
+    main section article .main-upside p:nth-child(3) {
+        font: 600 14px 'Montserrat', sans-serif;
+        font-style: normal;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #757575;
+    }
+
+    main section article .main-upside .about-platform ul {
+        display: flex;
+        justify-content: center;
+        padding: 12px 20px 22px;
+        gap: 20px;
+    }
+
+    main section article .main-upside .about-platform ul li {
+        display: block;
+    }
+
+    main section article .main-upside .about-platform ul li a {
+        display: block;
+        padding: 15px 20px;
+        text-decoration: none;
+        background: #C3DCE3;
+        border-radius: 100px;
+        font: 700 14px 'Montserrat', sans-serif;
+        line-height: 100%;
+        gap: 20px;
+        color: #2B788B;
+    }
+
+    main section article .main-upside .about-platform-count {
+        display: flex;
+    }
+
+    main section article .main-upside .about-platform-count hr {
+        height: 40px;
+        border: 1px groove;
+        opacity: 0.3;
+    }
+
+
+    main section article .main-upside .popular-words,
+    main section article .main-upside .mini-games {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    main section article .main-upside .popular-words p {
+        width: 100%;
+        font: 400 20px 'Dela Gothic One';
+        line-height: 20px;
+        letter-spacing: 1.5px;
+
+    }
+
+    main section article .main-upside .popular-words p i {
+        color: #2B788B;
+    }
+
+    main section article .main-upside .mini-games p i {
+        color: #2B788B;
+    }
+
+    main section article .main-upside .popular-words span {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font: 600 15px 'Montserrat', sans-serif;
+        letter-spacing: -1px;
+    }
+
+    main section article .main-upside .mini-games p {
+        width: 100%;
+        font-size: 10px;
+        font: 400 20px 'Dela Gothic One';
+        line-height: 20px;
+        letter-spacing: 1.5px;
+    }
+
+    main section article .main-upside .mini-games span {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font: 600 15px 'Montserrat', sans-serif;
+        letter-spacing: -4%;
+    }
+
+    main section article .main-body-first {
+        margin-top: 15px;
+        background-color: #F6F5F4;
+        padding: 10px 20px;
+
+    }
+
+    main section article .main-body-first .main-image-first {
+        background-image: url('../img/casual-life-3d-boy.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        justify-content: end;
+
+    }
+    main section article .main-body-first .main-image-first img {
+        display: block;
+        width: 60%;
+    }
+    main section article .main-body-secondly  {
+        padding: 20px 20px;
+    }
+    main section article .main-body-secondly img {
+        width: 100%;
+    }
+main section article .body-second-content{
+    margin-top: 15px;
+    padding: 20px 20px;
+}
+main section article .body-second-content .second_content-text{
+    font: 400 24px 'Dela Gothic One';
+    letter-spacing: -1px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+main section article .body-second-content .second_content-text-secondly{
+    font: 600 14px 'Montserrat', sans-serif;
+    text-align: center; 
+    line-height: 19.6px;
+    letter-spacing: -0.04em;
+    line-height: 140%;
+    color: #757575;
+}
+}
+@media only  screen and (max-width:768px) {
+    .container{
+        max-width: 768px;
+    }
+    
+}
+@media only  screen and (max-width:576px) {
+    .container{
+        max-width: 576px;
+    }
+    
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 5px 18px 25px;
+    }
+    header nav .bars i {
+        font-size: 25px;
+    }
+
+    header nav .logo {
+        width: 122.98px;
+        height: 16px;
+    }
+    header nav .logo h1 {
+        width: 100%;
+        height: 100%;
+        font: 400 16px 'Dela Gothic One', cursive;
+        line-height: 100%;
+        text-align: right;
+    }
+
+    header nav .login {
+        display: flex;
+        align-items: center;
+        flex-grow: 0.1;
+        justify-content: space-between;
+    }
+
+    header nav .login .profile a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-grow: 0.2;
+        text-decoration: none;
+    }
+
+    header nav .login .text {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #c3dce3;
+        font: 700 16px 'Montserrat', sans-serif;
+        font-style: normal;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #2b788b;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+
+    header .login .profile span {
+        font-style: normal;
+        font: 600 16px 'Montserrat', sans-serif;
+        line-height: 140%;
+        letter-spacing: -0.04em;
+        color: #757575;
+    }
+
+    main section .main-upside {
+        background-color: #F6F5F4;
+        padding: 20px 20px;
+
+    }
+
+    main section article .main-upside h2 {
+        height: 12px;
+        font: 700 12px 'Montserrat', sans-serif;
+        font-style: normal;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #2B788B;
+        padding-bottom: 25px;
+    }
+
+    main section article .main-upside p {
+        font-style: normal;
+        font: 400 32px 'Dela Gothic One';
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #000000;
+        padding-bottom: 8px;
+
+    }
+
+    main section article .main-upside p:nth-child(3) {
+        font: 600 14px 'Montserrat', sans-serif;
+        font-style: normal;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #757575;
+    }
+
+    main section article .main-upside .about-platform ul {
+        display: flex;
+        justify-content: center;
+        padding: 12px 20px 22px;
+        gap: 20px;
+    }
+
+    main section article .main-upside .about-platform ul li {
+        display: block;
+    }
+
+    main section article .main-upside .about-platform ul li a {
+        display: block;
+        padding: 15px 20px;
+        text-decoration: none;
+        background: #C3DCE3;
+        border-radius: 100px;
+        font: 700 14px 'Montserrat', sans-serif;
+        line-height: 100%;
+        gap: 20px;
+        color: #2B788B;
+    }
+
+    main section article .main-upside .about-platform-count {
+        display: flex;
+    }
+
+    main section article .main-upside .about-platform-count hr {
+        height: 40px;
+        border: 1px groove;
+        opacity: 0.3;
+    }
+
+
+    main section article .main-upside .popular-words,
+    main section article .main-upside .mini-games {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    main section article .main-upside .popular-words p {
+        width: 100%;
+        font: 400 20px 'Dela Gothic One';
+        line-height: 20px;
+        letter-spacing: 1.5px;
+
+    }
+
+    main section article .main-upside .popular-words p i {
+        color: #2B788B;
+    }
+
+    main section article .main-upside .mini-games p i {
+        color: #2B788B;
+    }
+
+    main section article .main-upside .popular-words span {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font: 600 15px 'Montserrat', sans-serif;
+        letter-spacing: -1px;
+    }
+
+    main section article .main-upside .mini-games p {
+        width: 100%;
+        font-size: 10px;
+        font: 400 20px 'Dela Gothic One';
+        line-height: 20px;
+        letter-spacing: 1.5px;
+    }
+
+    main section article .main-upside .mini-games span {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font: 600 15px 'Montserrat', sans-serif;
+        letter-spacing: -4%;
+    }
+
+    main section article .main-body-first {
+        margin-top: 15px;
+        background-color: #F6F5F4;
+        padding: 10px 20px;
+
+    }
+
+    main section article .main-body-first .main-image-first {
+        background-image: url('../img/casual-life-3d-boy.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        justify-content: end;
+
+    }
+    main section article .main-body-first .main-image-first img {
+        display: block;
+        width: 60%;
+    }
+    main section article .main-body-secondly  {
+        padding: 20px 20px;
+    }
+    main section article .main-body-secondly img {
+        width: 100%;
+    }
+main section article .body-second-content{
+    margin-top: 15px;
+    padding: 20px 20px;
+}
+main section article .body-second-content .second_content-text{
+    font: 400 24px 'Dela Gothic One';
+    letter-spacing: -1px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+main section article .body-second-content .second_content-text-secondly{
+    font: 600 14px 'Montserrat', sans-serif;
+    text-align: center; 
+    line-height: 19.6px;
+    letter-spacing: -0.04em;
+    line-height: 140%;
+    color: #757575;
+}
+}
+
+@media only screen and (max-width:376px) {
+
+    .container {
+        max-width: 376px;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 20px;
+    }
+    header nav .bars i {
+        font-size: 25px;
+    }
+
+    header nav .logo {
+        width: 122.98px;
+        height: 16px;
+    }
+
+    header nav .logo h1 {
+        width: 100%;
+        height: 100%;
+        font: 400 16px 'Dela Gothic One', cursive;
+        line-height: 100%;
+        text-align: right;
+    }
+
+    header nav .login {
+        display: flex;
+        align-items: center;
+        flex-grow: 0.1;
+        justify-content: space-between;
+    }
+
+    header nav .login .profile a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-grow: 0.2;
+        text-decoration: none;
+    }
+
+    header nav .login .text {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #c3dce3;
+        font: 700 16px 'Montserrat', sans-serif;
+        font-style: normal;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #2b788b;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+
+    header .login .profile span {
+        font-style: normal;
+        font: 600 16px 'Montserrat', sans-serif;
+        line-height: 140%;
+        letter-spacing: -0.04em;
+        color: #757575;
+    }
+
+    main section .main-upside {
+        background-color: #F6F5F4;
+        padding: 20px 20px;
+
+    }
+
+    main section article .main-upside h2 {
+        height: 12px;
+        font: 700 12px 'Montserrat', sans-serif;
+        font-style: normal;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #2B788B;
+        padding-bottom: 25px;
+    }
+
+    main section article .main-upside p {
+        font-style: normal;
+        font: 400 32px 'Dela Gothic One';
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #000000;
+        padding-bottom: 8px;
+
+    }
+
+    main section article .main-upside p:nth-child(3) {
+        font: 600 14px 'Montserrat', sans-serif;
+        font-style: normal;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #757575;
+    }
+
+    main section article .main-upside .about-platform ul {
+        display: flex;
+        justify-content: center;
+        padding: 12px 20px 22px;
+        gap: 20px;
+    }
+
+    main section article .main-upside .about-platform ul li {
+        display: block;
+    }
+
+    main section article .main-upside .about-platform ul li a {
+        display: block;
+        padding: 15px 20px;
+        text-decoration: none;
+        background: #C3DCE3;
+        border-radius: 100px;
+        font: 700 14px 'Montserrat', sans-serif;
+        line-height: 100%;
+        gap: 20px;
+        color: #2B788B;
+    }
+
+    main section article .main-upside .about-platform-count {
+        display: flex;
+    }
+
+    main section article .main-upside .about-platform-count hr {
+        height: 40px;
+        border: 1px groove;
+        opacity: 0.3;
+    }
+
+
+    main section article .main-upside .popular-words,
+    main section article .main-upside .mini-games {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    main section article .main-upside .popular-words p {
+        width: 100%;
+        font: 400 20px 'Dela Gothic One';
+        line-height: 20px;
+        letter-spacing: 1.5px;
+
+    }
+
+    main section article .main-upside .popular-words p i {
+        color: #2B788B;
+    }
+
+    main section article .main-upside .mini-games p i {
+        color: #2B788B;
+    }
+
+    main section article .main-upside .popular-words span {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font: 600 15px 'Montserrat', sans-serif;
+        letter-spacing: -1px;
+    }
+
+    main section article .main-upside .mini-games p {
+        width: 100%;
+        font-size: 10px;
+        font: 400 20px 'Dela Gothic One';
+        line-height: 20px;
+        letter-spacing: 1.5px;
+    }
+
+    main section article .main-upside .mini-games span {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font: 600 15px 'Montserrat', sans-serif;
+        letter-spacing: -4%;
+    }
+
+    main section article .main-body-first {
+        margin-top: 15px;
+        background-color: #F6F5F4;
+        padding: 10px 0px 20px 20px;
+    }
+
+    main section article .main-body-first .main-image-first {
+        background-image: url('../img/casual-life-3d-boy.png');
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: end;
+    }
+    main section article .main-body-secondly  {
+        padding: 20px 20px;
+    }
+main section article .body-second-content{
+    margin-top: 15px;
+    padding: 20px 20px;
+}
+main section article .body-second-content .second_content-text{
+    font: 400 24px 'Dela Gothic One';
+    letter-spacing: -1px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+main section article .body-second-content .second_content-text-secondly{
+    font: 600 14px 'Montserrat', sans-serif;
+    text-align: center; 
+    line-height: 19.6px;
+    letter-spacing: -0.04em;
+    line-height: 140%;
+    color: #757575;
+}
+}
+
