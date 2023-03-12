@@ -15,7 +15,7 @@
 header {
     border-bottom: 1px solid rgba(15, 15, 15, 0.1);
     background: #F6F5F4;
-    padding: 24px 370px;
+    padding: 24px 0;
 }
 
 .rotate-icon {
@@ -38,7 +38,7 @@ header nav .menu h1 {
     width: 122.98px;
     /* height: 16px; */
     display: flex;
-    justify-content:baseline;
+    justify-content: baseline;
     align-items: center;
     font: 400 20.86px 'Dela Gothic One', cursive;
     line-height: 20.86px;
@@ -71,15 +71,11 @@ header nav .menu ul li a {
 header nav .menu ul li i {
     color: #757575;
 }
+
 header nav .menu .active,
 header nav .menu ul li a:hover {
     color: #000;
 }
-
-header nav ul li a:hover + i {
-    color: #000 
-}
-
 
 header nav .login {
     display: flex;
@@ -127,11 +123,21 @@ header nav .account button {
     border: none;
     cursor: pointer;
 }
+header nav .account button i {
+    transition: ease 0.5s;
+}
+
+header nav .account button:hover i {
+    padding-left: 10px;
+    transition: ease 0.5s;
+}
 
 
 main .section-first {
     width: 100%;
     background: #F6F5F4;
+    /* background: red; */
+
     padding: 4.5% 0;
 }
 
@@ -283,7 +289,6 @@ main section article .main-upside .mini-games span {
 
 main section .secondly-article {
     flex-grow: 2;
-    /* border: 1px solid red; */
     padding-left: 20px;
 }
 
@@ -294,8 +299,6 @@ main section article .main-body-first {
     height: 95%;
     display: flex;
     position: relative;
-
-
 }
 
 .main-image-first-bg {
@@ -326,32 +329,35 @@ main section article .main-body-first .main-image-first img {
     position: absolute;
     right: 65px;
 }
-
-main section article .main-body-secondly {
-    padding: 20px 20px;
+main .section-secondly{
+    padding: 3% 0;
 }
-
-main section article .main-body-secondly img {
+.secondly-sect-article{
+    display: flex;
     width: 100%;
+}
+main section article .main-body-secondly img {
+    width: 580px;
 }
 
 main section article .body-second-content {
-    margin-top: 15px;
     padding: 20px 20px;
 }
 
 main section article .body-second-content .second_content-text {
-    font: 400 24px 'Dela Gothic One';
-    letter-spacing: -1px;
-    text-align: center;
+    font: 400 48px 'Dela Gothic One';
+    line-height: 48px;
+    letter-spacing: -1.5px;
+    text-align: left;
     padding-bottom: 10px;
 }
 
 main section article .body-second-content .second_content-text-secondly {
-    font: 600 14px 'Montserrat', sans-serif;
-    text-align: center;
-    line-height: 19.6px;
-    letter-spacing: -0.04em;
-    line-height: 140%;
+    font: 600 18px 'Montserrat', sans-serif;
+    text-align: left;
+    line-height: 25.2px;
+    letter-spacing: -0.04px;
     color: #757575;
+    width: 396px;
+    margin-top: 20px;
 }
