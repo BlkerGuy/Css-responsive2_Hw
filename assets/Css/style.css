@@ -34,41 +34,52 @@ header nav .bars {
     display: none;
 }
 
-header nav .logo {
+header nav .menu h1 {
     width: 122.98px;
-    height: 16px;
+    /* height: 16px; */
     display: flex;
+    justify-content:baseline;
     align-items: center;
-}
-
-header nav .logo h1 {
-    width: 100%;
     font: 400 20.86px 'Dela Gothic One', cursive;
     line-height: 20.86px;
     padding-left: 20px;
 }
 
-header nav ul {
+header nav .menu {
     display: flex;
-    justify-content: space-evenly;
-    flex-grow: 0.6;
-    width: 35%;
-    padding-right: 50px;
+    justify-content: space-between;
+    flex-grow: 0.1;
 }
 
-header nav ul li {
-    display: block;
-    width: 11%;
-    text-decoration: none;
-
+header nav .menu hr {
+    margin-left: 10px;
 }
 
-header nav ul li a {
+header nav .menu ul li {
+    display: inline;
+    margin-right: 35px;
+}
+
+header nav .menu ul li a {
     font: 600 16px 'Montserrat', sans-serif;
-    line-height: 22.4px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
     text-decoration: none;
-    color: black;
+    color: #757575;
 }
+
+header nav .menu ul li i {
+    color: #757575;
+}
+header nav .menu .active,
+header nav .menu ul li a:hover {
+    color: #000;
+}
+
+header nav ul li a:hover + i {
+    color: #000 
+}
+
 
 header nav .login {
     display: flex;
@@ -270,7 +281,7 @@ main section article .main-upside .mini-games span {
     letter-spacing: -4%;
 }
 
-main section .secondly-article{
+main section .secondly-article {
     flex-grow: 2;
     /* border: 1px solid red; */
     padding-left: 20px;
