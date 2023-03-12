@@ -341,11 +341,11 @@ main section article .main-body-secondly img {
 }
 
 main section article .body-second-content {
-    padding: 20px 20px;
+    padding: 20px 50px;
 }
 
 main section article .body-second-content .second_content-text {
-    font: 400 48px 'Dela Gothic One';
+    font: 400 40px 'Dela Gothic One';
     line-height: 48px;
     letter-spacing: -1.5px;
     text-align: left;
