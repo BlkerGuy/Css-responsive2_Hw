@@ -36,6 +36,16 @@
     main section article .body-second-content .second_content-text {
         font-size: 34px;
     }
+
+    main section article .sprint-audio-call-btns {
+        width: 85%;
+    }
+
+    main section article .sprint-audio-call-btns .audio-call-btn {
+        width: 172px;
+    }
+
+
 }
 
 @media only screen and (max-width:768px) {
@@ -71,10 +81,11 @@
         display: block;
         font-size: 25px;
     }
-    header .login .profile i{
-        display: block; 
+
+    header .login .profile i {
+        display: block;
         padding-left: 5px;
-     }
+    }
 
     main section .general-article {
         width: 100%;
@@ -232,7 +243,18 @@
         color: #757575;
         text-align: center;
         margin-top: 0px;
+    }
 
+    main section article .sprint-audio-call-btns {
+        width: 100%;
+        justify-content: center;
+    }
+    main section article .sprint-audio-call-btns .sprint-btn {
+        margin-right: 50px;
+        width: 114px;
+    }
+    main section article .sprint-audio-call-btns .audio-call-btn {
+        height: 112px;
     }
 }
 
@@ -240,6 +262,7 @@
     .container {
         max-width: 576px;
     }
+
     main section article .main-upside p {
         padding: 0 px;
     }
@@ -249,5 +272,8 @@
 
     .container {
         max-width: 376px;
+    }
+    main section article .sprint-audio-call-btns .sprint-btn {
+        margin-right: 20px;
     }
 }

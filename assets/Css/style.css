@@ -115,8 +115,9 @@ header .login .profile span {
     letter-spacing: -0.04em;
     color: #757575;
 }
-header .login .profile i{
-   display: none; 
+
+header .login .profile i {
+    display: none;
 }
 
 header nav .account button {
@@ -124,6 +125,7 @@ header nav .account button {
     border: none;
     cursor: pointer;
 }
+
 header nav .account button i {
     transition: ease 0.5s;
 }
@@ -185,7 +187,8 @@ main section article .main-upside p:nth-child(3) {
     color: #757575;
     width: 396.89px;
 }
-main section article .main-upside p:nth-child(3)::after{
+
+main section article .main-upside p:nth-child(3)::after {
     content: "Practice your English and learn new things with the platform.";
 }
 
@@ -331,14 +334,14 @@ main section article .main-body-first .main-image-first img {
 }
 
 /* Section two Start */
-main .section-secondly{
+main .section-secondly {
     padding: 3% 0;
 }
-.secondly-sect-article{
+
+.secondly-sect-article {
     display: flex;
     width: 100%;
 }
-
 
 main section article .main-body-secondly img {
     width: 580px;
@@ -363,6 +366,72 @@ main section article .body-second-content .second_content-text-secondly {
     line-height: 25.2px;
     letter-spacing: -0.04px;
     color: #757575;
-    width: 100%;
+    width: 80%;
     margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+main section article .sprint-audio-call-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+main section article .sprint-audio-call-btns .sprint-btn {
+    width: 129px;
+    height: 112px;
+    border-radius: 14px;
+    padding: 0px 22px 14px 22px;
+    background: #F2D4DC;
+    position: relative;
+}
+
+main section article .sprint-audio-call-btns .sprint-btn img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 30px;
+    right: 2px;
+}
+
+main section article .sprint-audio-call-btns .sprint-btn .sprintbtn,
+main section article .sprint-audio-call-btns .audio-call-btn .audiocallbtn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font: 700 17px 'Montserrat', sans-serif;
+    line-height: 16px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+main section article .sprint-audio-call-btns .sprint-btn .sprintbtn{
+color: #945069;
+}main section article .sprint-audio-call-btns .sprint-btn .sprintbtn i{
+padding-left: 5px;
+}
+
+main section article .sprint-audio-call-btns .audio-call-btn .audiocallbtn{
+    color: #2B788B;
+} 
+main section article .sprint-audio-call-btns .audio-call-btn .audiocallbtn i{
+    padding-left: 5px;
+    }
+
+main section article .sprint-audio-call-btns .audio-call-btn {
+    width: 172px;
+    border-radius: 14px;
+    padding: 0px 22px 14px 22px;
+    background: #C3DCE3;
+    position: relative;
+}
+
+main section article .sprint-audio-call-btns .audio-call-btn img {
+    height: 106px;
+    width: 91px;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
 }
