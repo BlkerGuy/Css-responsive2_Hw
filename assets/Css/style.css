@@ -115,6 +115,9 @@ header .login .profile span {
     letter-spacing: -0.04em;
     color: #757575;
 }
+header .login .profile i{
+   display: none; 
+}
 
 header nav .account button {
     font: 700 16px 'Montserrat', sans-serif;
@@ -137,7 +140,6 @@ main .section-first {
     padding: 4.5% 0;
 }
 
-/* firstly plan padding >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 main section .general-article {
     width: 100%;
     display: flex;
@@ -182,6 +184,9 @@ main section article .main-upside p:nth-child(3) {
     letter-spacing: -0.04em;
     color: #757575;
     width: 396.89px;
+}
+main section article .main-upside p:nth-child(3)::after{
+    content: "Practice your English and learn new things with the platform.";
 }
 
 main section article .main-upside .about-platform {
@@ -324,6 +329,8 @@ main section article .main-body-first .main-image-first img {
     position: absolute;
     right: 65px;
 }
+
+/* Section two Start */
 main .section-secondly{
     padding: 3% 0;
 }
@@ -331,12 +338,15 @@ main .section-secondly{
     display: flex;
     width: 100%;
 }
+
+
 main section article .main-body-secondly img {
     width: 580px;
 }
 
 main section article .body-second-content {
     padding: 20px 50px;
+    width: 100%;
 }
 
 main section article .body-second-content .second_content-text {
@@ -353,6 +363,6 @@ main section article .body-second-content .second_content-text-secondly {
     line-height: 25.2px;
     letter-spacing: -0.04px;
     color: #757575;
-    width: 396px;
+    width: 100%;
     margin-top: 20px;
 }
