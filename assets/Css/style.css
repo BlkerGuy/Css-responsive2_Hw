@@ -349,7 +349,7 @@ main section article .main-body-secondly img {
 
 main section article .body-second-content {
     padding: 20px 50px;
-    width: 100%;
+    max-width: 100%;
 }
 
 main section article .body-second-content .second_content-text {

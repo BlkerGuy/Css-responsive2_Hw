@@ -30,7 +30,11 @@
 
     main section article .body-second-content {
         padding: 20px 0px;
-        max-width: 100%;
+
+        /* max-width: 100%; */
+    }
+    main section article .body-second-content .second_content-text-secondly {
+        margin-top: 0px;
     }
 
     main section article .body-second-content .second_content-text {
@@ -39,13 +43,12 @@
 
     main section article .sprint-audio-call-btns {
         width: 85%;
+        flex-wrap: wrap;
     }
 
     main section article .sprint-audio-call-btns .audio-call-btn {
         width: 172px;
     }
-
-
 }
 
 @media only screen and (max-width:768px) {
@@ -150,27 +153,17 @@
         flex-wrap: wrap;
     }
 
-    main section article .main-upside .popular-words p {
-        font-size: 20px;
-        line-height: 20px;
-        letter-spacing: 1.5px;
-        padding: 0;
-    }
-
-    main section article .main-upside .popular-words p i {
-        font-size: 20px;
-    }
-
-    main section article .main-upside .mini-games p i {
-        font-size: 20px;
-    }
-
+    main section article .main-upside .popular-words p,
     main section article .main-upside .mini-games p {
         font-size: 20px;
         line-height: 20px;
         letter-spacing: 1.5px;
         padding: 0;
+    }
 
+    main section article .main-upside .popular-words p i,
+    main section article .main-upside .mini-games p i {
+        font-size: 20px;
     }
 
     main section .general-article {
@@ -249,10 +242,12 @@
         width: 100%;
         justify-content: center;
     }
+
     main section article .sprint-audio-call-btns .sprint-btn {
         margin-right: 50px;
         width: 114px;
     }
+
     main section article .sprint-audio-call-btns .audio-call-btn {
         height: 112px;
     }
@@ -266,6 +261,9 @@
     main section article .main-upside p {
         padding: 0 px;
     }
+    main section article .sprint-audio-call-btns {
+        flex-wrap: nowrap;
+    }
 }
 
 @media only screen and (max-width:376px) {
@@ -273,7 +271,12 @@
     .container {
         max-width: 376px;
     }
+    main section article .sprint-audio-call-btns {
+        flex-wrap: wrap;
+    }
+
     main section article .sprint-audio-call-btns .sprint-btn {
         margin-right: 20px;
     }
+    
 }
